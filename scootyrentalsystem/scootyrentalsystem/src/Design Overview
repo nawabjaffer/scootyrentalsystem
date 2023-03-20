@@ -1,0 +1,9 @@
+Scooty Rental System with the following classes:
+
+    Outlet: This class will represent each outlet of the company and will have attributes like outlet ID, location, and a list of available vehicles. It will also have methods to add/remove vehicles and get the list of available vehicles.
+
+    Vehicle: This class will represent each vehicle and will have attributes like vehicle ID, model, status (available/reserved), current outlet, current user (if reserved), and current reservation. It will also have methods to update the status, current outlet, and current user/reservation.
+
+    User: This class will represent the user of the app and will have attributes like user ID, location, and current reservation. It will also have methods to create/update the reservation, get the list of available outlets, and get the list of nearby outlets/vehicles.
+
+    Reservation: This class will represent the reservation created by the user and will have attributes like reservation ID, user ID, vehicle ID, start time, end time, and status. It will also have methods to update the status and get the reservation details
